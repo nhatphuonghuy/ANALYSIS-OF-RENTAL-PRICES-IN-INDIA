@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS_House_Rent", "SSAS_House_Rent\SSAS_House_Rent.dwproj", "{E3FC4E62-C70F-4946-B0E0-899D8E703908}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3FC4E62-C70F-4946-B0E0-899D8E703908}.Development|Default.ActiveCfg = Development
+		{E3FC4E62-C70F-4946-B0E0-899D8E703908}.Development|Default.Build.0 = Development
+		{E3FC4E62-C70F-4946-B0E0-899D8E703908}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21FC8FDF-7863-45FB-B54E-0F35770B0AF9}
+	EndGlobalSection
+EndGlobal

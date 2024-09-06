@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LAPTOP-DHVAO2NH.HOUSE_RENT_WH"
+  DTS:DTSID="{94414D6C-C25D-4BC2-8F71-785E79A583EE}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=LAPTOP-DHVAO2NH;Initial Catalog=HOUSE_RENT_WH;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-SSIS_House_Rent-{94414D6C-C25D-4BC2-8F71-785E79A583EE}LAPTOP-DHVAO2NH.HOUSE_RENT_WH;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_House_Rent</Database>
+    <Server>LAPTOP-DHVAO2NH\MSSQLAS</Server>
+    <ConnectionString>Data Source=LAPTOP-DHVAO2NH\MSSQLAS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>gBfnQ711SoMjxJNkFCxIh1hYNcI=4/20/2024 1:02:07 PM5/20/2024 12:41:20 PM</TimeStamp>
+        <ID>
+          <String>HOUSE RENT WH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>9dQXiaYexjVvl5WAXU5Eej8U1dk=4/20/2024 1:02:31 PM5/20/2024 12:41:20 PM</TimeStamp>
+        <ID>
+          <String>HOUSE RENT WH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nTqIffRi7Zf5EVDk7OOLyEdQf0E=4/20/2024 1:07:35 PM5/20/2024 12:41:20 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sdS8wcFxIxqBZedojJ0Xszd8vbU=4/20/2024 1:04:17 PM5/20/2024 12:41:20 PM</TimeStamp>
+        <ID>
+          <String>Dim Building</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ToAfLrTdQyvmqlp5IHKClMwcAcs=4/20/2024 1:04:17 PM5/20/2024 12:41:20 PM</TimeStamp>
+        <ID>
+          <String>Dim Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fKI6hIqzMuYs9sQmSkjah1FQuH4=4/20/2024 1:04:17 PM5/20/2024 12:41:20 PM</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>sAIshsfp1qUUdItEpFCDRh2VlEk=5/23/2024 12:50:46 PM5/20/2024 12:41:20 PMUv2lhCojtTqdyb51R2B7+Vyj5dM=5/23/2024 12:50:46 PM5/20/2024 12:41:20 PM</TimeStamp>
+        <ID>
+          <String>HOUSE RENT WH</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>OAuCtYVj4xgclWGo2pfArZXXgDU=4/20/2024 1:01:07 PM5/20/2024 12:41:20 PM</TimeStamp>
+      <ID>
+        <String>SSAS_House_Rent</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-05-23T05:50:59.076667Z</LastDeployed>
+</DeploymentSnapshot>
